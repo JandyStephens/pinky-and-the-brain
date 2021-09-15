@@ -5,7 +5,8 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: salmon;
+    background-color: black;
+    color: whitesmoke;
     text-align: center;
 }
 
@@ -22,6 +23,7 @@ nav li {
     list-style-type: none;
     display: inline;
     padding: 20px;
+    color: black;
 }
 
 h1 {
@@ -32,18 +34,28 @@ h2 {
     text-decoration: underline;
 }
 
+img {
+    box-shadow: 5px 10px 10px red;
+}
+
 main {
     padding: 50px;
     display: inline-block;
     margin: 0 auto;
 }
 
+pre {
+    padding-top: 25px;
+}
+
 form {
     background-color: skyblue;
-    margin: 25px 0px 100px 0px;
+    margin: 0px 0px 100px 0px;
     padding: 20px;
     display: inline-block;
     text-align: left;
+    color: black;
+    border: 5px solid whitesmoke;
 }
 
 footer {
