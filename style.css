@@ -1,0 +1,63 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: salmon;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav {
+    top: 0;
+}
+
+nav ul {
+    text-align: right;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline;
+    padding: 20px;
+}
+
+h1 {
+    color: red;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+main {
+    padding: 50px;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+form {
+    background-color: skyblue;
+    margin: 25px 0px 100px 0px;
+    padding: 20px;
+    display: inline-block;
+    text-align: left;
+}
+
+footer {
+    bottom: 0;
+    text-align: center;
+}
+
+.bar {
+    /* background-color: rgb(40, 51, 51); */
+    background-color: tomato;
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+
+.lyrics {
+    text-align: left;
+}
